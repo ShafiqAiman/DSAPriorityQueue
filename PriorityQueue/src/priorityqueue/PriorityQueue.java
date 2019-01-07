@@ -17,8 +17,6 @@ import java.util.*;
 
 class DSAGroupProject {
     public static void main(String[] args) {
-        
-        //Creating an empty priority queue
         PriorityQueue<String> pQueue = new PriorityQueue<String>();
         
         //Operation 1: Adding items to the priority queue
