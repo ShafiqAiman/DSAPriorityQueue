@@ -73,5 +73,10 @@ class DSAGroupProject {
         //Operation 8: Clear the contents in the priority queue
         pQueue.clear();
         System.out.println("Values in the priority queue after using clear() method: " + pQueue);
+        System.out.println("");
+        
+        //Operation 9: Check to see if the priority queue is empty using isEmpty operation
+        boolean answer = pQueue.isEmpty();
+        System.out.println("The priority queue is empty: " + answer);
     }//end of main
 }//end of class PriorityQueue
