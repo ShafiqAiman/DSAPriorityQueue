@@ -17,7 +17,7 @@ import java.util.*;
 
 class MinHeapify {
     public static void main(String[] args) {
-        PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>();
+        PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>(Collections.reverseOrder());
         
         //Operation 1: Adding items to the priority queue
         pQueue.add(75);
