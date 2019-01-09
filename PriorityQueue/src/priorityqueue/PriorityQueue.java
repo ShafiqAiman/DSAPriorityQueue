@@ -53,7 +53,7 @@ class MaxHeapify {
             }//end of operation to display element of highest priority
         
             if (number2 == 1){
-                //Operation 3: Displaying the element with the highest priority
+                //Operation 2: Displaying the element with the highest priority
                 System.out.println("\nThe element with the highest priority: " + pQueue.peek());
                 System.out.println("");
             }//end of operation to display element with the highest priority
@@ -84,7 +84,7 @@ class MaxHeapify {
             }//end of operation to remove element with highest priority from the priority queue
             
             if(number2 == 5){
-                //Operation 5: Removing item using remove() function
+                //Operation 6: Removing item using remove() function
                 System.out.println("\nWhich number to remove? :");
                 int number3 = input.nextInt();
                 pQueue.remove(number3);
@@ -96,7 +96,7 @@ class MaxHeapify {
             }//end of operation to remove an item from the priority queue
             
             if(number2 == 6){
-                //Operation 6: Checks if an element is present inside the queue using contains() method
+                //Operation 7: Checks if an element is present inside the queue using contains() method
                 System.out.println("\nCheck which number :");
                 int number4 = input.nextInt();
                 boolean result = pQueue.contains(number4);
