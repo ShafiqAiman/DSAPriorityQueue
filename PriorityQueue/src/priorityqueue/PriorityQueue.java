@@ -15,15 +15,15 @@ package GroupProject;
 
 import java.util.*;
 
-class DSAGroupProject {
+class MinHeapify {
     public static void main(String[] args) {
-        PriorityQueue<String> pQueue = new PriorityQueue<String>();
+        PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>();
         
         //Operation 1: Adding items to the priority queue
-        pQueue.add("C");
-        pQueue.add("C++");
-        pQueue.add("Java");
-        pQueue.add("Python");
+        pQueue.add(75);
+        pQueue.add(43);
+        pQueue.add(9);
+        pQueue.add(13);
         
         //Operation 2: Displaying the element with the highest priority
         System.out.println("Head value using peek function: " + pQueue.peek());
@@ -43,22 +43,22 @@ class DSAGroupProject {
         //Operation 5: Removes the element with the highest priority and printing the modified pQueue using poll()
         pQueue.poll();
         System.out.println("After removing the element with highest priority using the poll function: ");
-        Iterator<String> itr2 = pQueue.iterator();
+        Iterator<Integer> itr2 = pQueue.iterator();
         while(itr2.hasNext())
             System.out.println(itr2.next());
         System.out.println("");
         
         //Removing Orange using remove() function
-        pQueue.remove("Java");
-        System.out.println("After removing 'Java' with remove() function: ");
-        Iterator<String> itr3 = pQueue.iterator();
+        pQueue.remove(9);
+        System.out.println("After removing '9' with remove() function: ");
+        Iterator<Integer> itr3 = pQueue.iterator();
         while(itr3.hasNext())
             System.out.println(itr3.next());
         System.out.println("");
         
         //Operation 6: Checks if an element is present inside the queue using contains() method
-        boolean result = pQueue.contains("C");
-        System.out.println("Does the priority queue contain 'C'?: " + result);
+        boolean result = pQueue.contains(43);
+        System.out.println("Does the priority queue contain '43'?: " + result);
         System.out.println("");
         
         //Operation 7: Getting objects from the queue using toArray() in an array and print the array
