@@ -77,7 +77,7 @@ class MaxHeapify {
         System.out.println("");
         }
         if(number2==5){
-        //Removing Orange using remove() function
+        //Removing item using remove() function
             System.out.println("\nWhich number to remove? :");
             int number3 = input.nextInt();
         pQueue.remove(number3);
