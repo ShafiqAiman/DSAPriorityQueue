@@ -20,11 +20,10 @@ class DSAGroupProject {
         PriorityQueue<String> pQueue = new PriorityQueue<String>();
         
         //Operation 1: Adding items to the priority queue
-        pQueue.add("Orange");
-        pQueue.add("Strawberry");
-        pQueue.add("Apple");
-        pQueue.add("Grape");
-        pQueue.add("Kiwi");
+        pQueue.add("C");
+        pQueue.add("C++");
+        pQueue.add("Java");
+        pQueue.add("Python");
         
         //Operation 2: Displaying the element with the highest priority
         System.out.println("Head value using peek function: " + pQueue.peek());
@@ -50,16 +49,16 @@ class DSAGroupProject {
         System.out.println("");
         
         //Removing Orange using remove() function
-        pQueue.remove("Orange");
-        System.out.println("After removing 'Orange' with remove() function: ");
+        pQueue.remove("Java");
+        System.out.println("After removing 'Java' with remove() function: ");
         Iterator<String> itr3 = pQueue.iterator();
         while(itr3.hasNext())
             System.out.println(itr3.next());
         System.out.println("");
         
         //Operation 6: Checks if an element is present inside the queue using contains() method
-        boolean result = pQueue.contains("Strawberry");
-        System.out.println("Does the priority queue contain 'Strawberry?: " + result);
+        boolean result = pQueue.contains("C");
+        System.out.println("Does the priority queue contain 'C'?: " + result);
         System.out.println("");
         
         //Operation 7: Getting objects from the queue using toArray() in an array and print the array
